@@ -1,4 +1,5 @@
 import {Stack} from "./stack/stack";
+import {Queue} from "./queue/queue";
 
 /** STACK DATA STRUCTURE
 const StackStructure = new Stack();
@@ -13,3 +14,15 @@ console.log(StackStructure);
 **/
 
 
+/** QUEUE DATA STRUCTURE
+const QueueStructure = new Queue();
+QueueStructure.enqueue("Audi");
+QueueStructure.enqueue("Bmw");
+QueueStructure.enqueue("Lambo");
+QueueStructure.enqueue("Ferrari");
+// QueueStructure.clear();
+console.log("Deleted",QueueStructure.dequeue());
+console.log("Deleted",QueueStructure.dequeue());
+QueueStructure.enqueue("Škoda");
+console.log(QueueStructure);
+ **/
